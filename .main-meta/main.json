@@ -1,0 +1,54 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.3.0",
+        "name": "com.microchip.mcu8.mplabx.project.pic18f57q43-cnano-wpu-mplab-melody",
+        "version": "1.0.0",
+        "displayName": "Weak Pull-up Feature of GPIO",
+        "projectName": "pic18f57q43-cnano-wpu-mplab-melody",
+        "shortDescription": "This code example demonstrates how to use the Weak Pull up Feature of the GPIO module of the PIC microcontroller This code example was created for a Microchip University Class with the name GPIO",
+        "ide": {
+            "name": "MPLAB X",
+            "semverRange": ">=6.0.0"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.35.0"
+            }
+        ],
+        "dfp": {
+            "name": "PIC18F-Q_DFP",
+            "semverRange": "^1.13.211"
+        },
+        "configurator": {
+            "name": "MCC",
+            "semverRange": ">=5.1.0"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "PIC18F57Q43",
+                "versionRange": "*"
+            }
+        },
+        "author": "Jamus Griego",
+        "peripherals": ["GPIO"],
+        "keywords": ["MCC", "Curiosity Nano", "Melody"],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
